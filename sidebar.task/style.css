@@ -1,0 +1,89 @@
+body
+{
+    height: 100%;
+}
+#main_div
+{
+    width: 400px;
+    height: 250px;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+    margin-left: 400px;
+}
+#h4_text
+{
+    font-size: 20px;
+    font-family: Cabin;
+}
+span
+{
+    color: blue;
+    text-decoration: underline;
+}
+.bar_icon
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.cross_icon
+{
+    display: flex;
+    gap: 20px;
+    top: 0px;
+}
+#icon1
+{
+    position: relative; 
+    top: 10px;
+    right: 10px; 
+    font-size: 50px;
+}
+#icon2
+{
+    font-size: 40px;
+    color: crimson;
+}
+.side_bar 
+{
+    width: 0px;
+    height: 550px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 4px;
+    position: relative; 
+    left: -310px;
+    top: -46px;
+    transition:  2s;
+}
+
+#logo
+{
+    width: 200px;
+    height: 100px;
+}
+a 
+{
+    text-decoration: none;
+    display: flex;
+    padding: 7px;
+    font-size: 20px;
+    color: black;
+}
+a:hover
+{
+    color: skyblue;
+}
+.act
+{
+    width: 330px;
+    left: 0;
+}
+
+
+
+
